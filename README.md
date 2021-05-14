@@ -31,6 +31,7 @@ To verify if any Nicehash suite miners are quarantined by Windows Defender:
 TO BE DONE:
 1. Will add how-to section to help add the script as a computer startup script -- if your ExlusionsProcess list is wiped by future Windows and/or Defender updates, rebooting will put them back without the need to manually run the script.
 2. Add how-to un-quarantine/restore applications blocked by Defender using ."$ENV:ProgramFiles\Windows Defender\MpCmdRun.exe" -Restore from a PowerShell prompt.
+3. Check if Nicehash.exe is present in a folder below the level of $RootFolder; stop the script if Nicehash.exe is not found.
 
 If this script helps you, please send a donation:
 USDC - 0xd1d107bcE3F196A612e0e839D2D956f265Ddbf2C
