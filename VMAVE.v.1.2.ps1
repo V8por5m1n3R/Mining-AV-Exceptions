@@ -4,6 +4,21 @@ CLEAR-HOST
 # 2021-05-10 - v.1.1: Added all NiceHash folders!
 # 2021-05-12 - v.1.2: Updated $MFLJ (Master File List from JSON) list; clean-up ExclusionPath's before adding ExclusionProcess's.  Using ExclusionProcess is safer than ExclusionPath - ExclusionPath creates umbreallas that malware could hide under.
 
+<#
+
+If this script helps you, please send a donation:
+USDC - 0xd1d107bcE3F196A612e0e839D2D956f265Ddbf2C
+
+BTC - 3EDXrh16ficV1Q6HmAMr3rXWNCMHbFwRra
+
+LTC - MMbh94XJUY95Gdeo9G7gK1qY6esNbPdaR1 
+
+ETH - 0x4Fe21b7b1178888745F3b53EDc0e22f25D5cd3b1
+
+ETC - 0x852971f07775cB2078b92ffcb2840E218DB0E06a
+
+#>
+
 # (c) 2021 VaporMiner
 
 
