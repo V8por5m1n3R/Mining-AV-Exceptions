@@ -13,7 +13,7 @@ The presumption is that Windows Defender is your ONLY Antivirus/antimalware/anti
 If you are running Windows 10/Server 2016+ and only using Windows Defender, yo may add a default set of process exclusions as follows:
 1. Close all Nicehash instances and miners.
 2. Start PowerShell_ISE.exe as an Administrator
-3. Open the following PowerShell script; download from https://github.com/V8por5m1n3R/Mining-AV-Exceptions
+3. Open the following PowerShell script - VMAVE.v.1.2.ps1; download from https://github.com/V8por5m1n3R/Mining-AV-Exceptions
 4. Change this line to match the folder you launch Nicehash from: $RootFolder = "C:\CCMN\Miners" # Replace this with the path to your Nicehash folder
 5. Consider removing miners from the $MFLJ variable that you are NOT using.
 6. Run the script
