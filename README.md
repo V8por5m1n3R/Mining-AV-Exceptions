@@ -18,6 +18,11 @@ If you are running Windows 10 and only using Windows Defender:
 6. Run the script
 7. A reboot may not be necessary, but is recommended before restarting Nicehash.
 
+To verify if any Nicehash suite miners are quarantined by Windows Defender:
+1. Start PowerShell_ISE.exe as an Administrator
+2. Run ."$ENV:ProgramFiles\Windows Defender\MpCmdRun.exe" -Restore -ListAll
+
+
 If this script helps you, please send a donation:
 USDC - 0xd1d107bcE3F196A612e0e839D2D956f265Ddbf2C
 
