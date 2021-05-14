@@ -14,10 +14,11 @@ If you are running Windows 10/Server 2016+ and only using Windows Defender, yo m
 1. Close all Nicehash instances and miners.
 2. Start PowerShell_ISE.exe as an Administrator
 3. Open the following PowerShell script - VMAVE.v.1.2.ps1; download from https://github.com/V8por5m1n3R/Mining-AV-Exceptions
-4. Change this line to match the folder you launch Nicehash from: $RootFolder = "C:\CCMN\Miners" # Replace this with the path to your Nicehash folder
-5. Consider removing miners from the $MFLJ variable that you are NOT using.
-6. Run the script
-7. A reboot may not be necessary, but is recommended before restarting Nicehash.
+4. If you receive a message that the running of script is disabled you  may use this command to enable script execution, then re-run the above script: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+5. Change this line to match the folder you launch Nicehash from: $RootFolder = "C:\CCMN\Miners" # Replace this with the path to your Nicehash folder
+6. Consider removing miners from the $MFLJ variable that you are NOT using.
+7. Run the script
+8. A reboot may not be necessary, but is recommended before restarting Nicehash.
 
 To verify the exclusions in Windows Defender for Nicehash suite miners are in place:
 1. Start PowerShell_ISE.exe as an Administrator
